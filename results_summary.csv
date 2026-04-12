@@ -1,0 +1,13 @@
+Scenario,Model,RMSE,MAE,NASA Score,Neg% ↓
+E1: FD001 Baseline,Standard LSTM,15.53,11.15,596.3,0.0
+E1: FD001 Baseline,GRU,14.83,10.93,401.9,0.0
+E1: FD001 Baseline,DK-LSTM (Proposed),14.82,10.86,393.6,0.0
+E2: Missingness 30%,Standard LSTM,14.79,11.15,324.8,0.0
+E2: Missingness 30%,GRU,14.53,10.58,361.9,0.0
+E2: Missingness 30%,DK-LSTM (Proposed),15.57,10.71,391.6,0.0
+E3a: FD002 OC-Shift,Standard LSTM,54.77,45.88,439887.2,0.0
+E3a: FD002 OC-Shift,GRU,54.81,45.73,751733.6,0.0
+E3a: FD002 OC-Shift,DK-LSTM (Proposed),54.14,45.66,211242.5,0.0
+E3b: FD003 FM-Shift,Standard LSTM,49.64,33.19,970623.8,0.0
+E3b: FD003 FM-Shift,GRU,49.27,32.31,1006619.2,0.0
+E3b: FD003 FM-Shift,DK-LSTM (Proposed),47.69,31.9,718551.6,0.0

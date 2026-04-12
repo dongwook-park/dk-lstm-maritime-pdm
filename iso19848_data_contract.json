@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.0",
+  "standard_reference": "ISO 19848:2024 (Ships and marine technology \u2014 Standard data for shipboard machinery and equipment)",
+  "vessel_id": "PROXY_VESSEL_CMAPSS",
+  "note": "ISO 19848-aligned reference mapping for the NASA C-MAPSS proxy benchmark. Sensor names are mapped to ISO 19848 channel identifiers for semantic interoperability. This is a reference mapping, not a full standard compliance implementation.",
+  "data_channels": [
+    {
+      "channel_id": "OC_ALT",
+      "iso_name": "OperationalCondition_Altitude",
+      "source_feature": "setting_1",
+      "unit": "ft",
+      "type": "setting"
+    },
+    {
+      "channel_id": "OC_MN",
+      "iso_name": "OperationalCondition_MachNumber",
+      "source_feature": "setting_2",
+      "unit": "mach",
+      "type": "setting"
+    },
+    {
+      "channel_id": "FAN_IN_T",
+      "iso_name": "FanInlet_Temperature",
+      "source_feature": "s_2",
+      "unit": "degR",
+      "type": "sensor"
+    },
+    {
+      "channel_id": "LPC_OUT_T",
+      "iso_name": "LPC_OutletTemperature",
+      "source_feature": "s_3",
+      "unit": "degR",
+      "type": "sensor"
+    },
+    {
+      "channel_id": "HPC_OUT_T",
+      "iso_name": "HPC_OutletTemperature",
+      "source_feature": "s_4",
+      "unit": "degR",
+      "type": "sensor"
+    },
+    {
+      "channel_id": "OGV_T",
+      "iso_name": "BypassDuct_Temperature",
+      "source_feature": "s_7",
+      "unit": "degR",
+      "type": "sensor"
+    },
+    {
+      "channel_id": "HPC_IN_T",
+      "iso_name": "HPC_InletTemperature",
+      "source_feature": "s_8",
+      "unit": "degR",
+      "type": "sensor"
+    },
+    {
+      "channel_id": "HPT_IS_TS",
+      "iso_name": "HPT_IsentropicEfficiency",
+      "source_feature": "s_9",
+      "unit": "pct",
+      "type": "sensor"
+    },
+    {
+      "channel_id": "HPC_OUT_P",
+      "iso_name": "HPC_OutletPressure",
+      "source_feature": "s_11",
+      "unit": "psia",
+      "type": "sensor"
+    },
+    {
+      "channel_id": "HPT_OUT_P",
+      "iso_name": "HPT_OutletPressure",
+      "source_feature": "s_12",
+      "unit": "psia",
+      "type": "sensor"
+    },
+    {
+      "channel_id": "FAN_EFF",
+      "iso_name": "Fan_IsentropicEfficiency",
+      "source_feature": "s_13",
+      "unit": "pct",
+      "type": "sensor"
+    },
+    {
+      "channel_id": "LPC_EFF",
+      "iso_name": "LPC_IsentropicEfficiency",
+      "source_feature": "s_14",
+      "unit": "pct",
+      "type": "sensor"
+    },
+    {
+      "channel_id": "HPT_EFF",
+      "iso_name": "HPT_IsentropicEfficiency",
+      "source_feature": "s_15",
+      "unit": "pct",
+      "type": "sensor"
+    },
+    {
+      "channel_id": "BPR",
+      "iso_name": "BypassRatio",
+      "source_feature": "s_17",
+      "unit": "ratio",
+      "type": "sensor"
+    },
+    {
+      "channel_id": "HPC_FLOW",
+      "iso_name": "HPC_FlowSensor",
+      "source_feature": "s_20",
+      "unit": "lbm/s",
+      "type": "sensor"
+    },
+    {
+      "channel_id": "LPT_EFF",
+      "iso_name": "LPT_IsentropicEfficiency",
+      "source_feature": "s_21",
+      "unit": "pct",
+      "type": "sensor"
+    }
+  ],
+  "target_variable": {
+    "channel_id": "RUL",
+    "iso_name": "RemainingUsefulLife",
+    "unit": "cycles",
+    "constraint_non_negative": true,
+    "constraint_monotonic_degradation": true,
+    "constraint_upper_bound": 125.0
+  }
+}
