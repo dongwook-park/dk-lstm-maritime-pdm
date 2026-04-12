@@ -13,7 +13,7 @@
 
 ## Primary Dataset (Not Included — Publicly Available)
 The NASA C-MAPSS turbofan degradation dataset used in this study is publicly available:  
-**Source:** https://data.nasa.gov/  
+**Source:** https://data.nasa.gov/dataset/cmapss-jet-engine-simulated-data
 **Subsets used:** FD001, FD002, FD003
 
 ## Requirements
