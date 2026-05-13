@@ -7,7 +7,7 @@
 
 | File | Description |
 |------|-------------|
-| `dk_lstm_experiment_v3.1.py` | Full experimental script. Reproduces all results in the manuscript. Random seed fixed at 42. |
+| `dk_lstm_experiment_v4.py` | Full experimental script. Reproduces all results in the manuscript. Random seed fixed at 42. |
 | `results_summary.csv` | Quantitative results for all scenarios (E1, E2, E3a, E3b): RMSE, MAE, NASA Score, Neg%. |
 | `iso19848_data_contract.json` | ISO 19848-aligned reference schema mapping NASA C-MAPSS sensor channels to standard channel identifiers (Supplementary Material S1). |
 
