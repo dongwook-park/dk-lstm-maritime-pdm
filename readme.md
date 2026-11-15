@@ -27,7 +27,7 @@ The NASA C-MAPSS turbofan degradation dataset used in this study is publicly ava
 ## Reproducibility
 All experiments use fixed random seed (42) and fixed train/validation splits.  
 To reproduce results, download the C-MAPSS dataset from the NASA source above,  
-place the files in the working directory, and run `dk_lstm_experiment_v3.1.py`.
+place the files in the working directory, and run `dk_lstm_experiment_v4.py`.
 
 ## Notes
 - No personally identifiable or proprietary information is included.
